@@ -9,7 +9,7 @@
 :root {
     --green: #15431a;
     --dark-green: #102512;
-    --beige: #d3c26b;
+    --beige: #b0a465;
     --brown: #513a0f;  
     
 }
@@ -35,9 +35,11 @@ a {
 .nav-bar {
     width: 100%;
     height: 15vh;
+    background-color: var(--dark-green);
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    /*align-items: center;*/
+    align-items: center;
     padding: 0 5vw;
     position: fixed;
     z-index: 1;
@@ -45,15 +47,11 @@ a {
     left: 0;
 }
 
-.nav-title {
-    font-size: 5vh;
-    font-weight: 500;
-    color: var(--white);
-    margin-top: 4vh;
-}
-
 .logo {
-    color: var(--pink);
+    font-size: 7vh;
+    font-weight: 500;
+    color: var(--beige);
+    font-family: 'Parisienne', cursive;
 }
 
 .nav-menu {
@@ -65,23 +63,39 @@ a {
     margin: 0 4vw;
 }
 
-.nav-menu a {
+.menu-item {
     font-size: 1.5vw;
+    color: var(--beige);
 }
 
-.menu-btn {
+.nav-menu-btn {
+    color: var(--brown);
+}
+
+
+.btn {
+    background-color: var(--beige);
+    color: var(--brown);
+    font-size: 0.8em;
+    text-transform: uppercase;
+    padding: 0.4vw 1.5vw;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+#menu-btn {
     font-size: 5vh;
     cursor: pointer;
     position: absolute;
     right: 4vh;
-    color: var(--white);
+    color: var(--beige);
     margin-top: 8vh;
     display: none;
-
 }
 
-.active-scroll {
+/*.active-scroll {
     background-color: var(--blue);
-}
+} */
 
 /*menu*/
