@@ -1,0 +1,45 @@
+ @media(max-width: 850px) {
+
+     /*responsive menu*/
+     #menu-btn {
+         display: block;
+         margin-top: 0;
+     }
+
+     .nav-bar {
+         padding: 0;
+     }
+
+     .nav-title {
+         position: absolute;
+         left: 20px;
+         top: 20px;
+     }
+
+     .nav-menu {
+         background-color: var(--beige);
+         color: var(--brown);
+         width: 100%;
+         height: 100vh;
+         flex-direction: column;
+         justify-content: center;
+         margin-top: -1100px;
+         transition: .5s;
+     }
+
+     .mobile-menu {
+             margin-top: 0;
+     }
+
+
+     .nav-menu li {
+         margin: 2vh auto;
+     }
+
+     .nav-menu a {
+         text-transform: uppercase;
+         font-size: 3vw;
+     }
+    }
+
+     /*final menu responsivo*/
