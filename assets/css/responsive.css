@@ -40,6 +40,10 @@
          text-transform: uppercase;
          font-size: 3vw;
      }
+
+     .btn {
+        padding: 1vw 2vw;
+     }
     }
 
     @media(max-width: 850px) {

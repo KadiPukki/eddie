@@ -78,12 +78,11 @@ a {
     background-color: var(--beige);
     color: var(--brown);
     font-size: 0.8em;
-    border-radius: 5px;
-    text-transform: uppercase;
-    padding: 0.4vw 1.5vw;
+    font-weight: 400;
+    padding: 0.5vw 1.5vw;
+    border-radius: 15px;
     transition: 0.5s;
-    cursor: pointer;
-
+    text-transform: uppercase;
 }
 
 #menu-btn {
@@ -130,15 +129,6 @@ a {
     font-size: 4vw;
     font-weight: 300;
     margin: 3vh auto 6vh;
-}
-
-.btn {
-    background-color: var(--beige);
-    color: var(--brown);
-    padding: 0.4vw 1.5vw;
-    border-radius: 15px;
-    border: 2px solid --pink;
-    transition: 0.5s;
 }
 
 .btn:hover {
