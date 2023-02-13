@@ -44,6 +44,10 @@
      .btn {
         padding: 1vw 2vw;
      }
+
+     .main {
+        flex-direction: column;
+     }
     }
 
     @media(max-width: 850px) {
