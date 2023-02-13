@@ -1,6 +1,5 @@
  @media(max-width: 850px) {
 
-     /*responsive menu*/
      #menu-btn {
          display: block;
          margin-top: 0;
@@ -32,7 +31,7 @@
          margin-top: 0;
      }
 
-
+     
      .nav-menu li {
          margin: 2vh auto;
      }
@@ -43,4 +42,8 @@
      }
     }
 
-     /*final menu responsivo*/
+    @media(max-width: 850px) {
+     .logo {
+         font-size: 6.3vh;
+     }
+    }
