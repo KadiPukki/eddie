@@ -10,7 +10,7 @@
     --green: #15431a;
     --dark-green: #10251210;
     --beige: #d1c898;
-    --brown: #513a0f;  
+    --brown: #3c2b0c;  
     --white: #f7f6f3;
     
 }
@@ -142,10 +142,11 @@ a {
     width: 80%;
     height: 90vh;
     display: flex;
-    margin: 8vh auto;
+    margin: 9vh auto;
     align-items: center;
     justify-content: center;
-    gap: 2vw;
+    gap: 3vw;
+    color: var(--brown);
 }
 
 .main-content {
@@ -153,9 +154,9 @@ a {
     text-align: center;
 }
 
-.main-content h3 {
-    font-size: 4vmin;
-    font-weight: 500;
+.main-content h1 {
+    font-size: 6vmin;
+    font-weight: 400;
 }
 
 .main-content p {
@@ -184,3 +185,44 @@ a {
 }
 
 /*MAIN*/
+
+/*GALLERY*/
+.gallery-title {
+    background-color: var(--beige);
+    color: var(--brown);
+}
+
+/*Alterando a altura do carrossel*/
+.carousel-inner,
+.carousel-item {
+    height: 80vh;
+}
+
+.gallery {
+    min-height: 100vh;
+    padding: 60px 40px;
+}
+
+.gallery img {
+    width: 70%;
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .3);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.gallery img:hover {
+    transform: rotate(0);
+}
+
+.left-rotate {
+    transform: rotate(-7deg);
+}
+
+.right-rotate {
+    transform: rotate(7deg);
+}
+/*GALLERY*/
+
