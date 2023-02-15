@@ -7,8 +7,8 @@
 }
 
 :root {
-    --green: #15431a;
-    --dark-green: #10251210;
+    --green: #0c230ffc;
+    --transparent: #10251210;
     --beige: #d1c898;
     --brown: #3c2b0c;  
     --white: #f7f6f3;
@@ -32,17 +32,21 @@ a {
     text-decoration: none;
 }
 
+a:visited {
+    color: var(--beige);
+}
+
 /*menu*/
 .nav-bar {
     width: 100%;
     height: 15vh;
-    background-color: var(--dark-green);
+    background-color: var(--transparent);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     padding: 0 5vw;
-    position: fixed;
+    position:absolute;
     z-index: 1;
     top: 0;
     left: 0;
@@ -204,7 +208,7 @@ a {
 }
 
 .gallery img {
-    width: 70%;
+    width: 60%;
     background-color: #fff;
     padding: 15px;
     margin-bottom: 20px;
@@ -215,6 +219,8 @@ a {
 
 .gallery img:hover {
     transform: rotate(0);
+    transform: scale(1.3);
+    transition: .5s;
 }
 
 .left-rotate {
@@ -226,3 +232,30 @@ a {
 }
 /*GALLERY*/
 
+
+/*FOOTER*/
+
+.contact {
+    width: 100%;
+    height: 35vh;
+    background-color: var(--green);
+    color: var(--beige);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5vh;
+}
+
+.contact p {
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2vw;
+    font-size: 1.2em;
+}
+
+/*FOOTER*/

@@ -48,10 +48,26 @@
      .main {
         flex-direction: column;
      }
+
+         .logo {
+             font-size: 6.3vh;
+         }
+
+     .gallery img {
+        width: 80%;
+     }
+
+     .contact {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+     }
     }
 
-    @media(max-width: 850px) {
-     .logo {
-         font-size: 6.3vh;
+
+    @media(max-width: 400px) {
+     .gallery img {
+         width: 100%;
      }
     }
