@@ -33,7 +33,7 @@ a {
 }
 
 a:visited {
-    color: var(--beige);
+    color: inherit;
 }
 
 /*menu*/
@@ -70,6 +70,10 @@ a:visited {
 
 .menu-item {
     font-size: 1.5vw;
+    color: var(--beige);
+}
+
+#menu1, #menu2 {
     color: var(--beige);
 }
 
