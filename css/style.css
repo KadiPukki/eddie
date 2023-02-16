@@ -7,7 +7,7 @@
 }
 
 :root {
-    --green: #0c230ffc;
+    --green: #020e04;
     --transparent: #10251218;
     --beige: #d1c898;
     --brown: #3c2b0c;  
@@ -256,7 +256,7 @@ a:visited {
     padding: 2vh;
 }
 
-.logo-footer {
+.contact-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
