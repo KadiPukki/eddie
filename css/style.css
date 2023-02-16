@@ -8,7 +8,7 @@
 
 :root {
     --green: #0c230ffc;
-    --transparent: #102512b8;
+    --transparent: #10251218;
     --beige: #d1c898;
     --brown: #3c2b0c;  
     --white: #f7f6f3;
@@ -118,23 +118,16 @@ a:visited {
 .hero {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 8), rgba(0, 0, 0, 0)), url();
+    background-image: linear-gradient(rgba(0, 0, 0, 8), rgba(0, 0, 0, 0)), url(../images/tim-mossholder-ArQIWcmOlA8-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     color: var(--white);
     text-align: center;
-}
-
-.hero img {
-    width: 100%;
-    height: 100vh;
-    object-fit:cover;
 }
 
 .hero-title {
