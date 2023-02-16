@@ -49,12 +49,12 @@
         flex-direction: column;
      }
 
-         .logo {
+     .logo {
              font-size: 6.3vh;
-         }
+     }
 
      .gallery img {
-        width: 80%;
+             width: 100%;
      }
 
      .contact {
@@ -67,7 +67,8 @@
 
 
     @media(max-width: 400px) {
-     .gallery img {
-         width: 100%;
+
+     .contact {
+        height: 30vh;
      }
     }
