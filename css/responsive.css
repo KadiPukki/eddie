@@ -68,7 +68,7 @@
         }
 
         a:visited {
-            color: var(--beige);
+            color: inherit;
         }
     }
 
