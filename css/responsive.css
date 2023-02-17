@@ -60,16 +60,10 @@
     }
 
     @media(max-width: 400px) {
-        .contact {
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            gap: 1vh;
-        }
-
-        a:visited {
-            color: inherit;
-        }
+     .contact p {
+        font-size: 0.7em;
+        font-weight: 400;
+            }
     }
 
 
