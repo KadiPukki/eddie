@@ -32,7 +32,10 @@ a {
     text-decoration: none;
 }
 
-a:visited {
+a:visited,
+a:focus,
+a:active {
+    text-decoration: none;
     color: inherit;
 }
 
@@ -267,10 +270,6 @@ a:visited {
     justify-content: space-around;
     gap: 2vw;
     font-size: 1.2em;
-}
-
-.social a:visited {
-    color: var(--beige);
 }
 
 #footer-btn {
