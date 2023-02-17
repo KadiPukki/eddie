@@ -33,7 +33,6 @@ a {
 }
 
 a:visited,
-a:focus,
 a:active {
     text-decoration: none;
     color: inherit;
@@ -274,6 +273,10 @@ a:active {
 
 #footer-btn {
     color: var(--brown);
+}
+
+a:visited .insta {
+    color: var(--beige);
 }
 
 /*FOOTER*/
