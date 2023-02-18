@@ -8,11 +8,11 @@
 
 :root {
     --green: #020e04;
+    --dark-green: #0d2110;
     --transparent: #10251218;
     --beige: #d1c898;
     --brown: #3c2b0c;  
-    --white: #f7f6f3;
-    
+    --white: #f7f6f3;    
 }
 
 html {
@@ -32,8 +32,7 @@ a {
     text-decoration: none;
 }
 
-a:visited,
-a:active {
+a:visited {
     text-decoration: none;
     color: inherit;
 }
@@ -275,8 +274,5 @@ a:active {
     color: var(--brown);
 }
 
-a:visited .insta {
-    color: var(--beige);
-}
 
 /*FOOTER*/
