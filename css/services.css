@@ -25,6 +25,7 @@
     text-align: center;
 }
 
+
 .services-list-item {
     width: 40%;
     /*margin-bottom: 10vh;*/
@@ -52,7 +53,7 @@
 }
 
 .services-list-item p {
-    font-size: 2.5vmin;
+    font-size: 0.8em;
     padding: 0 3vw;
     margin-bottom: 3vh;
 }
