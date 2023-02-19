@@ -147,12 +147,6 @@ a:visited {
     color: var(--brown);
 }
 
-.insta {
-    margin-top: 1vh;
-    font-size: 1.5em;
-    color: var(--white);
-}
-
 /*HEADER*/
 
 /*MAIN*/
@@ -267,6 +261,10 @@ a:visited {
     font-weight: 400;
 }
 
+.contact-info {
+    color: var(--beige);
+}
+
 .social {
     display: flex;
     flex-direction: row;
@@ -279,8 +277,12 @@ a:visited {
     color: var(--brown);
 }
 
-a:visited {
-    color: var(--white);
+.insta {
+    color: var(--beige);
+}
+
+.insta a:visited {
+    color: var(--beige);
 }
 
 
