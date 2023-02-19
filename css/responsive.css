@@ -50,15 +50,19 @@
      }
 
      .logo {
-             font-size: 6.3vh;
+        font-size: 6.3vh;
      }
 
      .gallery img {
-             width: 100%;
+        width: 100%;
      }
 
      .services-list {
         flex-direction: column;
+     }
+
+     .services-list-item {
+        width: 80%;
      }
 
      

@@ -1,26 +1,19 @@
 :root {
     --green: #020e04;
-    --dark-green: #0d2110;
+    --dark-green: #15381ae9;
     --transparent: #10251218;
     --beige: #d1c898;
     --brown: #3c2b0c;
     --white: #f7f6f3;
 }
 #nav-service {
-    background-color: var(--dark-green);
+    background-color: white;
 }
 
 .services {
     width: 80%;
     min-height: 100vh;
-    margin: 10vh auto;
-}
-
-.services-title {
-    text-align: center;
-    font-size: 4vmin;
-    font-weight: 400;
-    margin-bottom: 7vh;
+    margin: 15vh auto;
 }
 
 .services-list {
