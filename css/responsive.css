@@ -73,6 +73,10 @@
         font-size: 0.7em;
         font-weight: 400;
             }
+
+     .about img {
+        width: 60%;
+    }
     }
 
 

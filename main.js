@@ -16,3 +16,4 @@ document.addEventListener('DOMContentLoaded', () =>{
         getImages[i].classList.add((i % 2 == 0) ? 'left-rotate' : 'right-rotate');
     }
 })
+
