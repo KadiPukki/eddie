@@ -7,9 +7,8 @@
 }
 
 :root {
-    --green: #020e04;
-    --dark-green: #0d2110;
-    --transparent: #10251218;
+    --black: #020e04;
+    --transparent: #10251200;
     --beige: #d1c898;
     --brown: #3c2b0c;  
     --white: #f7f6f3;    
@@ -250,7 +249,7 @@ a:visited {
 .contact {
     width: 100%;
     height: auto;
-    background-color: var(--green);
+    background-color: var(--black);
     color: var(--beige);
     display: flex;
     justify-content: space-around;

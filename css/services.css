@@ -1,19 +1,19 @@
 :root {
-    --green: #020e04;
-    --dark-green: #15381ae9;
+    --black: #020e04;
     --transparent: #10251218;
     --beige: #d1c898;
     --brown: #3c2b0c;
     --white: #f7f6f3;
 }
-#nav-service {
-    background-color: white;
+
+#services-box {
+    margin-top: 5vh;
 }
 
 .services {
     width: 80%;
     min-height: 100vh;
-    margin: 15vh auto;
+    margin: auto;
 }
 
 .services-list {
