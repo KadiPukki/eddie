@@ -1,3 +1,10 @@
+:root {
+    --black: #020e04;
+    --transparent: #10251200;
+    --beige: #d1c898;
+    --brown: #3c2b0c;
+    --white: #f7f6f3;
+}
 .about {
     width: 100%;
     display: flex;
@@ -6,6 +13,7 @@
     justify-content: center;
     align-items: center;
     background-color: rgba(134, 134, 134, 0.24);
+    color: var(--black);
 }
 
 .about h1 {
@@ -29,5 +37,5 @@
 }
 
 a:visited {
-    color: inherit;
+    color: var(--black);
 }

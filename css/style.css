@@ -205,7 +205,7 @@ a:visited {
 }
 
 a:visited {
-    color: inherit;
+    color: var(--brown);
 }
 
 /*MAIN*/
