@@ -6,7 +6,7 @@
     --brown: #3c2b0c;
     --white: #f7f6f3;
 }
-.nav-service {
+#nav-service {
     background-color: var(--dark-green);
 }
 
