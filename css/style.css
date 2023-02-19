@@ -57,6 +57,7 @@ a:visited {
     font-weight: 500;
     color: var(--beige);
     font-family: 'Parisienne', cursive;
+    cursor: pointer;
 }
 
 .nav-menu {
