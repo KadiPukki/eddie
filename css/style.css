@@ -147,6 +147,11 @@ a:visited {
     color: var(--brown);
 }
 
+.insta {
+    margin-top: 1vh;
+    font-size: 1.5em;
+}
+
 /*HEADER*/
 
 /*MAIN*/
@@ -271,6 +276,10 @@ a:visited {
 
 #footer-btn {
     color: var(--brown);
+}
+
+a:visited {
+    color: var(--beige);
 }
 
 
