@@ -36,6 +36,10 @@ a:visited {
     color: inherit;
 }
 
+a:active {
+    color: inherit;
+}
+
 /*menu*/
 .nav-bar {
     width: 100%;
@@ -286,9 +290,6 @@ a:visited {
     color: var(--beige);
 }
 
-.insta a:active {
-    color: var(--beige);
-}
 
 
 /*FOOTER*/
