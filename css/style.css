@@ -283,11 +283,7 @@ a:active {
 }
 
 .insta {
-    color: var(--beige);
-}
-
-.insta a:visited {
-    color: var(--beige);
+    width: 1.2em;
 }
 
 
