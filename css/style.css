@@ -286,5 +286,9 @@ a:visited {
     color: var(--beige);
 }
 
+.insta a:active {
+    color: var(--beige);
+}
+
 
 /*FOOTER*/
