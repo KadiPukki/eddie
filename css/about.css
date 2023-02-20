@@ -35,7 +35,3 @@
 .about p {
     width: 60%;
 }
-
-a:visited {
-    color: var(--black);
-}
