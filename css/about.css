@@ -22,7 +22,7 @@
     display: flex;
     flex-direction: row-reverse;
     background-color: rgba(134, 134, 134, 0.24);
-    padding: 1vw;
+    padding: 2vw;
 }
 
 .close-btn {
