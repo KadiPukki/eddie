@@ -11,7 +11,7 @@ Just below, I created a section with cards for the user to view the types of ser
 
 ### Screenshot
 
-![Main Page](../eddie/images/page.png)
+![Main Page](/page.png)
 
 
 ### Built with
