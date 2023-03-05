@@ -157,6 +157,10 @@ a:active {
 
 /*HEADER*/
 
+.cover-title {
+    font-size: 0.4rem;
+}
+
 /*MAIN*/
 .main {
     width: 80%;
